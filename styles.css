@@ -1,0 +1,35 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(219, 210, 228);
+    margin-top: 50px;
+}
+ 
+.brand-logo{
+    float: left;
+}
+
+.web-nav{
+    float: right;
+}
+ul{
+    list-style-type: none;
+ }
+li{
+    float: left;
+    padding: 8px 10px;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.section1{
+    float: left;
+    width: 50%;
+}
